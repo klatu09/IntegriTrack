@@ -24,7 +24,7 @@ def calculate_file_hash(file_path):
 
 # GUI setup
 root = tk.Tk()
-root.title("File Integrity Monitor")
+root.title("File Integrity Monitor - Integritrack 1.0 by Klatu ")
 root.configure(bg="#1e1e1e")
 
 # Variable to store the selected directory
