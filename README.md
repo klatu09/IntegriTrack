@@ -30,6 +30,12 @@
 3. pip install watchdog
 4. python integritrack.py
 
+### 🧠 How It Works 
+- The tool uses the watchdog library to observe file system events.
+- When a file is created or modified, it computes its SHA-256 hash.
+- The hash and timestamp are stored in-memory and exported to a JSON file.
+- Historical hashes help identify unauthorized or unexpected changes.
+
 
 ### 🕹️ How to Use ###
 1. Launch the program.
